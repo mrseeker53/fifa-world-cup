@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 15px;
-    margin: 3% 8% 1% 8%;
+    margin: 42px 112px 118px 112px;
 }
 
 .banner-info {
@@ -95,13 +95,47 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.blog {
+    margin: 12px 12px 12px 12px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-info {
+    margin: 16px 0 20px 20px;
+}
+
+.blog-info a {
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4px 15px;
+    color: #161616;
+    font-size: 14px;
+    background-color: #f9f8f6;
+}
+
+.blog-info h4 {
+    margin: 20px 0;
+}
+
+.icon img {
+    display: inline-block;
+}
+
+.icon span {
+    display: inline-block;
+}
+
+
+
 /* ---------------------- Main Section End --------------------------- */
 
 
 /* ---------------------- Footer Section Start ----------------------- */
 .footer {
     background-color: #161616;
-    margin: 0 -8px -8px -8px;
+    margin: 96px -8px -8px -8px;
 }
 
 .footer h1 {
