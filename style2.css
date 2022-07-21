@@ -79,9 +79,9 @@ body {
 }
 
 .match {
-    background-color: #FFFFFF;
-    color: #161616;
-    border: 1px solid #FFFFFF;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: 1px solid #DD0000;
 }
 
 .group {
@@ -91,9 +91,9 @@ body {
 }
 
 .blog-page {
-    background-color: #DD0000;
-    color: #FFFFFF;
-    border: 1px solid #DD0000;
+    background-color: #FFFFFF;
+    color: #161616;
+    border: 1px solid #FFFFFF;
 }
 
 .blogs {
@@ -108,32 +108,21 @@ body {
 }
 
 .blog-info {
-    margin: 16px 0 20px 20px;
+    margin: 16px 0 50px 20px;
+    text-align: center;
 }
 
-.blog-info a {
-    text-decoration: none;
-    border: 1px solid #161616;
-    border-radius: 5px;
-    padding: 4px 15px;
-    color: #161616;
-    font-size: 14px;
-    background-color: #f9f8f6;
-}
-
-.blog-info h4 {
-    margin: 20px 0;
-}
-
-.icon {
-    width: 26px;
+.flag {
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    width: 310px;
+    height: 160px;
+    margin-bottom: -50px;
 }
 
-.icon span {
-    margin-left: 6px;
-    margin-right: 33px;
+.flag h3 {
+    margin: 0 -50px 0 -50px;
 }
 
 /* ---------------------- Main Section End --------------------------- */
