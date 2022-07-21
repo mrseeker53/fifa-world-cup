@@ -6,6 +6,41 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ---------------- Media Query for Mobile Start ----------------- */
+@media only screen and (max-width: 667px) {
+    .container {
+        width: 100%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+}
+
+/* ---------------- Media Query for Mobile End ------------------- */
+
+/* ---------------- Media Query for Tablet Start ----------------- */
+@media only screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fre);
+    }
+}
+
+/* ---------------- Media Query for Tablet End ------------------- */
+
 /* -------------------- Header Section Start --------------------- */
 .banner {
     background-color: #161616;
